@@ -10,9 +10,9 @@ def long_planeteer_calls(calls)
   calls.any? {|call| call.length > 4}
 end
 
-def find_the_cheese(possible_cheese_items)
+def find_the_cheese(possible_cheese_foods)
   cheeses = ["cheddar", "gouda", "camembert"]
-  possible_cheese_items.detect do|possibly_cheese|
+  possible_cheese_food.detect do|possibly_cheese|
    cheeses.include?(possibly_cheese)
  end 
 end 
