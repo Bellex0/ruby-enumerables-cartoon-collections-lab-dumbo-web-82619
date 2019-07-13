@@ -1,5 +1,6 @@
 def roll_call_dwarves(names)
-  
+  names.each do |dwarf|
+    puts "#{names[i]}"
   # Your code here
 end
 
